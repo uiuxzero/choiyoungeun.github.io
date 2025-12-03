@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PORTPOLIO</title>
+    <!-- 제이쿼리 -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js"></script>
+    <!-- CSS 및 js 연결 -->
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+    <!-- 폰트어썸 -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+    />
+    <!-- 파비콘 -->
+    <link rel="icon" href="favicon.ico" />
+    <!-- 폰트 : Baloo -->
+    <link href="https://fonts.cdnfonts.com/css/baloo" rel="stylesheet" />
+    <!-- 폰트 : Noto Sans KR -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+
+  <body>
+    <!-- 여기에 실제 콘텐츠 들어가면 됨 -->
+    <main></main>
+    <section class="section section-3">
+      <div class="content sec3con">
+        <div class="category">
+          <div class="branding">BRANDING</div>
+          <span class="divider">│</span>
+          <div class="redesign">RE-DESIGN</div>
+        </div>
+        <div class="preview-wrap branding-wrap">
+          <div class="preview budi">
+            <img src="../img/preview-img-ex4.png" alt="budi" />
+            <div
+              class="popup-open"
+              role="button"
+              tabindex="0"
+              aria-label="팝업 열기"
+            >
+              <i class="fa-regular fa-plus"></i>
+            </div>
+          </div>
+          <div class="preview"></div>
+          <div class="preview"></div>
+          <div class="preview"></div>
+        </div>
+        <!-- <div class="redesign-wrap"> -->
+      </div>
+      <!-- 배경 라인 SVG -->
+      <div class="line-bg">
+        <svg viewBox="0 0 1600 600" preserveAspectRatio="none">
+          <path
+            id="curvy-line"
+            d="M -50 300
+       C 150 100, 350 500, 550 300
+       S 950 200, 1150 350
+       S 1450 500, 1650 300"
+          />
+        </svg>
+      </div>
+      <!-- 팝업창 -->
+      <div class="popup-overlay" id="previewPopup">
+        <div class="popup">
+          <div
+            class="popup-close"
+            role="button"
+            tabindex="0"
+            aria-label="팝업 닫기"
+          >
+            <i class="fa-regular fa-plus"></i>
+          </div>
+          <!-- 여기 내용은 수정해서 사용 -->
+          <div class="popup-site">
+            <img src="../img/Group 15978815811.png" alt="preview" />
+          </div>
+          <div class="popup-content">
+            <div class="numbering">
+              <h1>01</h1>
+              <h2>Branding</h2>
+            </div>
+            <div class="text-box">
+              <p class="label">title.</p>
+              <p>BUDI</p>
+            </div>
+            <div class="text-box">
+              <p class="label">date.</p>
+              <p>2025.10 - 2025.11</p>
+            </div>
+            <div class="text-box">
+              <p class="label">work.</p>
+              <p>team project</p>
+            </div>
+            <div class="text-box">
+              <p class="label">tool.</p>
+              <div class="tool-icon">
+                <p>Figma</p>
+                <p>│</p> 
+                <p>Photoshop</p>
+                <p>│</p>
+                <p>Illustrator</p>
+              </div>
+            </div>
+            <div class="link-box">
+              <div class="link">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="프로세스 페이지 새 창으로 열기"
+                >
+                PROCESS
+                </a>
+              </div>
+              <div class="link">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="메인 페이지 새 창으로 열기"
+                >
+                MAIN
+                </a>
+              </div>
+              <div class="link">
+                <a
+                  href="#"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="서브 페이지 새 창으로 열기"
+                >
+                SUB 1
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
